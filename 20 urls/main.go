@@ -28,8 +28,8 @@ func main() {
 	fmt.Println(params["coursename"])
 	fmt.Println(params["paymentid"])
 
-	for _, val := range params {
-		fmt.Println("Param is: ", val)
+	for idx, val := range params {
+		fmt.Println("Param is: ", val," Key is:", idx)
 	}
 
 	partsOfUrl := url.URL{
