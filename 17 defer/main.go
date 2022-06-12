@@ -26,5 +26,5 @@ func reccDefer(num int) {
 		return
 	}
 	reccDefer(num-1)
-
+	declaring variable using memory management in go
 }
